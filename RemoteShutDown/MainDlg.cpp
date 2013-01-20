@@ -159,7 +159,7 @@ DWORD WINAPI ThreadProc(LPVOID lpParameter)
 	}
 	if (ShutDown)
 	{
-		MessageBox(NULL, TEXT("The computer is gonna shut down in 20 seconds"), TEXT("Hello"), MB_OK);
+		//MessageBox(NULL, TEXT("The computer is gonna shut down in 20 seconds"), TEXT("Hello"), MB_OK);
 		system("shutdown /s /f /t 20");
 	}
 
